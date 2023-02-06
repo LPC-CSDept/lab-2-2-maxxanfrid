@@ -8,10 +8,10 @@ reg_rate = 18.25
 o_rate = 27.78
 total_hours = 50
 overtime_hours = total_hours - reg_hours
-print(overtime_hours)
 regular_wages = reg_hours * reg_rate
-print(regular_wages)
 overtime_wages = overtime_hours * o_rate
+print(overtime_hours)
+print(regular_wages)
 print(overtime_wages)
 total_wages = regular_wages + overtime_wages
 print(total_wages)
