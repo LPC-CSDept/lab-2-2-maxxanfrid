@@ -3,7 +3,7 @@ def main():
     # Comlete your code here
     ##################################################
     pass
-workhours = input('Enter your number')
+workhours = int(input('Enter your number'))
 reg_hours = 40
 reg_rate = 18.25
 o_rate = 27.78
